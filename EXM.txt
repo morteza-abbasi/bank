@@ -1,0 +1,2 @@
+emploee: name:ali last_name:rezaee personal_cod:12 birth_day:1/1/1 username:ali password:ali123 vacation_hours:1 overtime_hours:2
+

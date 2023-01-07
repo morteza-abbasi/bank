@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>del_emp</class>
+ <widget class="QWidget" name="del_emp">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>595</width>
+    <height>455</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background: #34495e;</string>
+  </property>
+  <widget class="QLabel" name="lbl_text">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>350</y>
+     <width>291</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:#FF4500; font-size:18px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="print_information">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>250</y>
+     <width>111</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 24px;
+
+	color:#EA2027; background-color:#bdc3c7; border: 2px solid #ff4d4d;  font-size:20px;</string>
+   </property>
+   <property name="text">
+    <string>تایید</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="ncod">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>190</y>
+     <width>331</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:white; font-size:20px;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>110</y>
+     <width>291</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">	border: 0;
+	background: #27ae60;
+	display: block;
+	margin: 3px 3px;
+	text-align: center;
+	border: 2px solid #2ecc71;
+	outline: none;
+	color: white;
+	border-radius: 20px;
+	font-size:20px;	</string>
+   </property>
+   <property name="text">
+    <string>کد پرسنلی کارمند:</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="print_information_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>111</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 24px;
+
+	color:#EA2027; background-color:#bdc3c7; border: 2px solid #ff4d4d;  font-size:20px;</string>
+   </property>
+   <property name="text">
+    <string>برگشت</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>10</y>
+     <width>441</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">	border: 0;
+	background: #27ae60;
+	display: block;
+	margin: 3px 3px;
+	text-align: center;
+	border: 2px solid #2ecc71;
+	outline: none;
+	color: white;
+	border-radius: 20px;
+	font-size:20px;	</string>
+   </property>
+   <property name="text">
+    <string>برای اخراج کد پپرسنلی را وارد کنید:</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

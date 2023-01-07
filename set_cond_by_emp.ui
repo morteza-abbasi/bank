@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>set_cond_by_emp</class>
+ <widget class="QWidget" name="set_cond_by_emp">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1040</width>
+    <height>767</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background: #34495e;</string>
+  </property>
+  <widget class="QLabel" name="lbl_text">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>140</y>
+     <width>261</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:#FF4500; font-size:18px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="ncod">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>70</y>
+     <width>331</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:white; font-size:20px;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>820</x>
+     <y>60</y>
+     <width>211</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">	border: 0;
+	background: #27ae60;
+	display: block;
+	margin: 3px 3px;
+	text-align: center;
+	border: 2px solid #2ecc71;
+	outline: none;
+	color: white;
+	border-radius: 20px;
+	font-size:20px;	</string>
+   </property>
+   <property name="text">
+    <string>کد ملی مشتری:</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="print_information">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>60</y>
+     <width>221</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 24px;
+
+	color:#EA2027; background-color:#bdc3c7; border: 2px solid #ff4d4d;  font-size:20px;</string>
+   </property>
+   <property name="text">
+    <string>تایید</string>
+   </property>
+  </widget>
+  <widget class="QScrollArea" name="scrollArea">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>200</y>
+     <width>531</width>
+     <height>561</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="widgetResizable">
+    <bool>true</bool>
+   </property>
+   <widget class="QWidget" name="scrollAreaWidgetContents">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>529</width>
+      <height>559</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QLabel" name="information">
+       <property name="styleSheet">
+        <string notr="true">font-size:17px;color:white;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignHCenter|Qt::AlignTop</set>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>200</y>
+     <width>371</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">	border: 0;
+	background: #27ae60;
+	display: block;
+	margin: 3px 3px;
+	text-align: center;
+	border: 2px solid #2ecc71;
+	outline: none;
+	color: white;
+	border-radius: 20px;
+	font-size:20px;	</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;وضعیت شماره حساب قابل مشاهده است&lt;/p&gt;&lt;p&gt;برای تغییر وضعیت شماره را وارد و تایید کنید&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="num_account">
+   <property name="geometry">
+    <rect>
+     <x>620</x>
+     <y>360</y>
+     <width>331</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:white; font-size:20px;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="print_information_2">
+   <property name="geometry">
+    <rect>
+     <x>620</x>
+     <y>410</y>
+     <width>341</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 24px;
+
+	color:#EA2027; background-color:#bdc3c7; border: 2px solid #ff4d4d;  font-size:20px;</string>
+   </property>
+   <property name="text">
+    <string>تایید</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="result">
+   <property name="geometry">
+    <rect>
+     <x>620</x>
+     <y>510</y>
+     <width>321</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-size:17px; color:yellow;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="back_to_emploee_page">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>101</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 24px;
+
+	color:#EA2027; background-color:#bdc3c7; border: 2px solid #ff4d4d;  font-size:20px;</string>
+   </property>
+   <property name="text">
+    <string>برگشت</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>0</y>
+     <width>791</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">	border: 0;
+	background: #27ae60;
+	display: block;
+	margin: 3px 3px;
+	text-align: center;
+	border: 2px solid #2ecc71;
+	outline: none;
+	color: white;
+	border-radius: 20px;
+	font-size:20px;	</string>
+   </property>
+   <property name="text">
+    <string>ابتدا کد ملی مشتری را وارد و تایید کرده سپس شماره حساب را برای تعیین وضعیت وارد کنید</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl_ind">
+   <property name="geometry">
+    <rect>
+     <x>955</x>
+     <y>720</y>
+     <width>41</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

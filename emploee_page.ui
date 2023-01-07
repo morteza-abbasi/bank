@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>emploee_page</class>
+ <widget class="QWidget" name="emploee_page">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1034</width>
+    <height>416</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background: #34495e;</string>
+  </property>
+  <widget class="QLabel" name="name_lastname">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>730</x>
+     <y>20</y>
+     <width>171</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-size:18px; color:black;</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::NoFrame</enum>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;/&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="open_account">
+   <property name="geometry">
+    <rect>
+     <x>800</x>
+     <y>110</y>
+     <width>211</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 24px;
+
+	color:#EA2027; background-color:#bdc3c7; border: 2px solid #ff4d4d;  font-size:24px;</string>
+   </property>
+   <property name="text">
+    <string>افتتاح حساب</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="print_information">
+   <property name="geometry">
+    <rect>
+     <x>800</x>
+     <y>220</y>
+     <width>211</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 24px;
+
+	color:#EA2027; background-color:#bdc3c7; border: 2px solid #ff4d4d;  font-size:24px;</string>
+   </property>
+   <property name="text">
+    <string>نمایش اطلاعات</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>910</x>
+     <y>10</y>
+     <width>91</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt; color:#ffffff;&quot;&gt;کارمند&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="vacation">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>220</y>
+     <width>211</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 24px;
+
+	color:#EA2027; background-color:#bdc3c7; border: 2px solid #ff4d4d;  font-size:24px;</string>
+   </property>
+   <property name="text">
+    <string>درخواست اضافه کار</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="overtime">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>110</y>
+     <width>211</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 24px;
+
+	color:#EA2027; background-color:#bdc3c7; border: 2px solid #ff4d4d;  font-size:24px;</string>
+   </property>
+   <property name="text">
+    <string>درخواست مرخصی</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="overtime_2">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>110</y>
+     <width>221</width>
+     <height>211</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 24px;
+
+	color:#EA2027; background-color:#bdc3c7; border: 2px solid #ff4d4d;  font-size:24px;</string>
+   </property>
+   <property name="text">
+    <string>فعال
+ یا
+ غیر فعال کردن
+ حساب</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="delete_cust">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>110</y>
+     <width>221</width>
+     <height>211</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 24px;
+
+	color:#EA2027; background-color:#bdc3c7; border: 2px solid #ff4d4d;  font-size:24px;</string>
+   </property>
+   <property name="text">
+    <string>حذف مشتری</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="back_login">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>91</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 24px;
+
+	color:#EA2027; background-color:#bdc3c7; border: 2px solid #ff4d4d;  font-size:18px;</string>
+   </property>
+   <property name="text">
+    <string>برگشت</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

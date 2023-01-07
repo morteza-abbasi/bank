@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>print_customer_with_ncod</class>
+ <widget class="QWidget" name="print_customer_with_ncod">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>573</width>
+    <height>446</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>نمایش اطلاعات مشتری</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background: #34495e;</string>
+  </property>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>120</y>
+     <width>291</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">	border: 0;
+	background: #27ae60;
+	display: block;
+	margin: 3px 3px;
+	text-align: center;
+	border: 2px solid #2ecc71;
+	outline: none;
+	color: white;
+	border-radius: 20px;
+	font-size:20px;	</string>
+   </property>
+   <property name="text">
+    <string>کد ملی مشتری:</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="ncod">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>200</y>
+     <width>331</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:white; font-size:20px;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="print_information">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>260</y>
+     <width>111</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 24px;
+
+	color:#EA2027; background-color:#bdc3c7; border: 2px solid #ff4d4d;  font-size:20px;</string>
+   </property>
+   <property name="text">
+    <string>تایید</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl_text">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>360</y>
+     <width>291</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:#FF4500; font-size:18px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="back">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>91</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 24px;
+
+	color:#EA2027; background-color:#bdc3c7; border: 2px solid #ff4d4d;  font-size:20px;</string>
+   </property>
+   <property name="text">
+    <string>برگشت</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>inf_emp_for_manag</class>
+ <widget class="QWidget" name="inf_emp_for_manag">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>988</width>
+    <height>708</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background: #34495e;</string>
+  </property>
+  <widget class="QPushButton" name="back_menu_pc">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>91</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 24px;
+
+	color:#EA2027; background-color:#bdc3c7; border: 2px solid #ff4d4d;  font-size:18px;</string>
+   </property>
+   <property name="text">
+    <string>برگشت</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="password_emp">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>160</y>
+     <width>201</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:black; font-size:18px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>820</x>
+     <y>150</y>
+     <width>171</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">	border: 0;
+	background: #27ae60;
+	display: block;
+	margin: 3px 3px;
+	text-align: center;
+	border: 2px solid #2ecc71;
+	outline: none;
+	color: white;
+	border-radius: 20px;
+	font-size:20px;	</string>
+   </property>
+   <property name="text">
+    <string>نام خوانوادگی:</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>820</x>
+     <y>10</y>
+     <width>151</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">	border: 0;
+	background: #27ae60;
+	display: block;
+	margin: 3px 3px;
+	text-align: center;
+	border: 2px solid #2ecc71;
+	outline: none;
+	color: white;
+	border-radius: 20px;
+	font-size:25px;	</string>
+   </property>
+   <property name="text">
+    <string>مشخصات: </string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="last_name_emp">
+   <property name="geometry">
+    <rect>
+     <x>620</x>
+     <y>160</y>
+     <width>191</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:black; font-size:18px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>820</x>
+     <y>100</y>
+     <width>171</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">	border: 0;
+		text-align: center;
+	background: #27ae60;
+	display: block;
+	margin: 3px 3px;
+	text-align: center;
+	border: 2px solid #2ecc71;
+	outline: none;
+	color: white;
+	border-radius: 20px;
+	font-size:20px;	
+	text-align: center;</string>
+   </property>
+   <property name="text">
+    <string>نام:</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>820</x>
+     <y>200</y>
+     <width>171</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">	border: 0;
+	background: #27ae60;
+	display: block;
+	margin: 3px 3px;
+	text-align: center;
+	border: 2px solid #2ecc71;
+	outline: none;
+	color: white;
+	border-radius: 20px;
+	font-size:20px;	</string>
+   </property>
+   <property name="text">
+    <string>تاریخ تولد:</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="accounts">
+   <property name="geometry">
+    <rect>
+     <x>-11</x>
+     <y>29</y>
+     <width>9</width>
+     <height>38</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:black; font-size:18px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>100</y>
+     <width>171</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">	border: 0;
+	background: #27ae60;
+	display: block;
+	margin: 3px 3px;
+	text-align: center;
+	border: 2px solid #2ecc71;
+	outline: none;
+	color: white;
+	border-radius: 20px;
+	font-size:20px;	</string>
+   </property>
+   <property name="text">
+    <string>نام کاربری:</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>150</y>
+     <width>171</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">	border: 0;
+	background: #27ae60;
+	display: block;
+	margin: 3px 3px;
+	text-align: center;
+	border: 2px solid #2ecc71;
+	outline: none;
+	color: white;
+	border-radius: 20px;
+	font-size:20px;	</string>
+   </property>
+   <property name="text">
+    <string>مرز عبور:</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="birth_day_emp">
+   <property name="geometry">
+    <rect>
+     <x>620</x>
+     <y>210</y>
+     <width>191</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:black; font-size:18px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="name_emp">
+   <property name="geometry">
+    <rect>
+     <x>620</x>
+     <y>110</y>
+     <width>191</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:black; font-size:18px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="username_emp">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>110</y>
+     <width>201</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:black; font-size:18px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>200</y>
+     <width>171</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">	border: 0;
+		text-align: center;
+	background: #27ae60;
+	display: block;
+	margin: 3px 3px;
+	text-align: center;
+	border: 2px solid #2ecc71;
+	outline: none;
+	color: white;
+	border-radius: 20px;
+	font-size:20px;	
+	text-align: center;</string>
+   </property>
+   <property name="text">
+    <string>کد پرسنلی:</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="p_cod">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>210</y>
+     <width>201</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:black; font-size:18px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_9">
+   <property name="geometry">
+    <rect>
+     <x>820</x>
+     <y>250</y>
+     <width>171</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">	border: 0;
+		text-align: center;
+	background: #27ae60;
+	display: block;
+	margin: 3px 3px;
+	text-align: center;
+	border: 2px solid #2ecc71;
+	outline: none;
+	color: white;
+	border-radius: 20px;
+	font-size:20px;	
+	text-align: center;</string>
+   </property>
+   <property name="text">
+    <string>ساعات اضافه کار:</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="over">
+   <property name="geometry">
+    <rect>
+     <x>620</x>
+     <y>260</y>
+     <width>191</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:black; font-size:18px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_10">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>250</y>
+     <width>171</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">	border: 0;
+		text-align: center;
+	background: #27ae60;
+	display: block;
+	margin: 3px 3px;
+	text-align: center;
+	border: 2px solid #2ecc71;
+	outline: none;
+	color: white;
+	border-radius: 20px;
+	font-size:20px;	
+	text-align: center;</string>
+   </property>
+   <property name="text">
+    <string>ساعات مرخصی:</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="vacat">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>260</y>
+     <width>201</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:black; font-size:18px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QScrollArea" name="scrollArea">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>320</y>
+     <width>761</width>
+     <height>331</height>
+    </rect>
+   </property>
+   <property name="widgetResizable">
+    <bool>true</bool>
+   </property>
+   <widget class="QWidget" name="scrollAreaWidgetContents">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>759</width>
+      <height>329</height>
+     </rect>
+    </property>
+    <layout class="QFormLayout" name="formLayout">
+     <item row="0" column="0">
+      <widget class="QLabel" name="inf">
+       <property name="styleSheet">
+        <string notr="true">color:black; font-size:18px;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="overtime">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>370</y>
+     <width>191</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 24px;
+
+	color:#EA2027; background-color:#bdc3c7; border: 2px solid #ff4d4d;  font-size:22px;</string>
+   </property>
+   <property name="text">
+    <string>جزییات اضافه کار</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="vacation">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>490</y>
+     <width>191</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 24px;
+
+	color:#EA2027; background-color:#bdc3c7; border: 2px solid #ff4d4d;  font-size:22px;</string>
+   </property>
+   <property name="text">
+    <string>جزییات مرخصی</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl_ind">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>690</y>
+     <width>16</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
